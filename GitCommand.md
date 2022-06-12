@@ -42,6 +42,7 @@
 4. [feature/기능이름] 브랜치에서 기능 개발이 끝나면 [master] 브랜치에 이름 합친다.
 
 - People1 Summary 
- branch 생성 
-
+ branch 생성 및 내용 commit and push 진행시 원격저장소에서 branch 가 생성된다.
  
+
+
