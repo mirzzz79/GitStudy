@@ -50,3 +50,17 @@
 ## github chapter4 
  - 협업을 통한 파일 관리 (원본저장소 > 원격 저장소 : fork)
 
+
+git 원격 주소 확인
+    - git remote -v         
+        origin  https://github.com/mirzzz79/GitStudy.git (fetch)
+        origin  https://github.com/mirzzz79/GitStudy.git (push)
+
+git 원격 주소 재설정
+    - git remote set-url origin https://github.com/mirzzz79/GitStudy.git
+
+
+push 진행시 아래와 같이 거부되면 set-url를 통해 아이디를 다시 설정해준다.
+   remote: Permission to mirzzz79/GitStudy.git denied to mirzzz.
+
+git remote set-url origin https://mirzzz79@github.com/mirzzz79/GitStudy.git/
